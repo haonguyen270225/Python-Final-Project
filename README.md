@@ -196,3 +196,79 @@ Khi thống nhất quy tắc dành riêng cho việc cập nhật code, bổ sun
 - Phần `info` cần mô tả thay đổi thực tế, tránh ghi chung chung như “sửa lỗi” hoặc “cập nhật dự án”.
 - Chỉ sử dụng `[Add]`, `[Update]`, `[Remove]` hoặc `[Fix]` phù hợp với thay đổi thực tế.
 - Nếu một commit thay đổi nhiều loại nội dung, hãy chọn loại chính hoặc tách thành nhiều commit để lịch sử dễ theo dõi.
+
+## 📚 GIT COMMANDS — TÀI LIỆU GIT CƠ BẢN
+
+### 🔎 1. Quy ước biểu tượng
+
+| Biểu tượng | Ý nghĩa                                     |
+| ---------- | ------------------------------------------- |
+| ⭐          | Lệnh cần nhớ, sử dụng thường xuyên          |
+| ⚠️         | Lệnh cần cẩn thận vì có thể làm mất dữ liệu |
+| 📘         | Lệnh tham khảo, sử dụng khi cần             |
+
+### 🔄 2. Các lệnh Git cơ bản
+
+| Biểu tượng | Lệnh                               | Chức năng                             | Ghi chú                                                           |
+| ---------- | ---------------------------------- | ------------------------------------- | ----------------------------------------------------------------- |
+| ⭐          | `git status`                       | Kiểm tra trạng thái các file          | Xem những file đã sửa đổi, đã staged hoặc chưa được Git theo dõi. |
+| ⭐          | `git pull origin main`             | Cập nhật code từ GitHub về máy        | Chạy trước khi bắt đầu công việc.                                 |
+| ⭐          | `git add .`                        | Đưa các thay đổi vào staging area     | Chuẩn bị các file để commit.                                      |
+| ⭐          | `git commit -m "Thông tin commit"` | Tạo commit lưu các thay đổi đã staged | Nội dung commit cần ngắn gọn, dễ hiểu.                            |
+| ⭐          | `git push origin main`             | Đẩy commit lên GitHub                 | Đẩy các commit local trên nhánh `main`.                           |
+| ⭐          | `git log`                          | Xem lịch sử commit                    | Hiển thị thông tin chi tiết.                                      |
+| ⭐          | `git log --oneline`                | Xem lịch sử commit dạng ngắn          | Mỗi commit hiển thị trên một dòng.                                |
+| 📘         | `git diff`                         | Xem các thay đổi chưa staged          | Kiểm tra nội dung code đã sửa.                                    |
+| 📘         | `git diff --staged`                | Xem các thay đổi đã staged            | Kiểm tra trước khi commit.                                        |
+| 📘         | `git show <commit-id>`             | Xem chi tiết một commit               | Thay `<commit-id>` bằng mã commit cần xem.                        |
+
+### 🧹 3. Các lệnh khôi phục và xóa file
+
+| Biểu tượng | Lệnh                          | Chức năng                                              | Ghi chú                                   |
+| ---------- | ----------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| ⚠️         | `git restore <file>`          | Khôi phục file đã theo dõi                             | Loại bỏ thay đổi chưa staged của file đó. |
+| ⚠️         | `git restore .`               | Khôi phục các file đã theo dõi trong thư mục hiện tại  | Có thể làm mất các chỉnh sửa chưa commit. |
+| 📘         | `git restore --staged <file>` | Bỏ file khỏi staging area                              | Giữ nguyên nội dung file.                 |
+| 📘         | `git clean -n`                | Xem trước các file chưa được theo dõi sẽ bị xóa        | Không xóa file thực tế.                   |
+| ⚠️         | `git clean -f`                | Xóa file chưa được Git theo dõi                        | Không xóa thư mục chưa theo dõi.          |
+| 📘         | `git clean -nd`               | Xem trước file và thư mục chưa được theo dõi sẽ bị xóa | Không xóa dữ liệu thực tế.                |
+| ⚠️         | `git clean -fd`               | Xóa file và thư mục chưa được Git theo dõi             | Có thể xóa dữ liệu không thể khôi phục.   |
+| ⚠️         | `git reset --soft HEAD~1`     | Bỏ commit gần nhất khỏi nhánh local                    | Giữ thay đổi trong staging area.          |
+| ⚠️         | `git reset --mixed HEAD~1`    | Bỏ commit gần nhất khỏi nhánh local                    | Giữ thay đổi trong file nhưng bỏ staging. |
+
+### 👥 4. Quy trình làm việc nhóm
+
+```bash
+# Bước 1: Kiểm tra trạng thái
+git status
+
+# Bước 2: Cập nhật code mới nhất từ GitHub
+git pull origin main
+
+# Bước 3: Kiểm tra thay đổi
+git status
+git diff
+
+# Bước 4: Đưa thay đổi vào staging
+git add .
+
+# Bước 5: Kiểm tra trước khi commit
+git status
+git diff --staged
+
+# Bước 6: Tạo commit , theo quy tắc trên file Readme.md
+git commit -m "feat: describe your changes"
+
+# Bước 7: Đẩy code lên GitHub
+git push origin main
+```
+
+**Quy tắc làm việc nhóm:**
+
+1. Chạy `git status` trước khi thực hiện các thao tác quan trọng.
+2. Chạy `git pull origin main` trước khi bắt đầu công việc để cập nhật code mới nhất.
+3. Không commit file chứa mật khẩu, API key hoặc thông tin bí mật.
+4. Cẩn thận khi sử dụng `git clean -f`, `git clean -fd` và `git reset`.
+5. Nếu xảy ra conflict, giải quyết conflict và kiểm tra code trước khi commit hoặc push.
+6. Chỉ push trực tiếp lên `main` khi nhóm đã thống nhất; ưu tiên nhánh riêng và Pull Request nếu dự án áp dụng quy trình review code.
+
