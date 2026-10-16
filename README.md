@@ -79,8 +79,22 @@ Dự án Python ứng dụng học máy để nhận diện loại tiền tệ v
 </div>
 
 ---
+<div align="center">
 
-# 📘 Git Commit Convention
+<details>
+<summary><strong>📚 MỤC LỤC TÀI LIỆU</strong></summary>
+
+<br>
+
+| Biểu tượng | Nội dung | Truy cập |
+|:---:|---|:---:|
+| 📘 | Git Commit Convention | [Xem mục](#git-commit-convention) |
+| 💻 | GIT COMMANDS — TÀI LIỆU GIT CƠ BẢN | [Xem mục](#git-commands) |
+
+</details>
+</div>
+<details>
+<summary>📘<strong> Git Commit Convention</strong></summary>
 
 Quy ước đặt tên commit nhằm thống nhất cách ghi nhận các thay đổi trong dự án, giúp thành viên dễ dàng theo dõi lịch sử cập nhật và xác định nội dung đã thay đổi.
 
@@ -197,7 +211,10 @@ Khi thống nhất quy tắc dành riêng cho việc cập nhật code, bổ sun
 - Chỉ sử dụng `[Add]`, `[Update]`, `[Remove]` hoặc `[Fix]` phù hợp với thay đổi thực tế.
 - Nếu một commit thay đổi nhiều loại nội dung, hãy chọn loại chính hoặc tách thành nhiều commit để lịch sử dễ theo dõi.
 
-## 📚 GIT COMMANDS — TÀI LIỆU GIT CƠ BẢN
+</details>
+<details>
+<summary>📚<strong>GIT COMMANDS — TÀI LIỆU GIT CƠ BẢN</strong></summary>
+
 
 ### 🔎 1. Quy ước biểu tượng
 
@@ -271,4 +288,4 @@ git push origin main
 4. Cẩn thận khi sử dụng `git clean -f`, `git clean -fd` và `git reset`.
 5. Nếu xảy ra conflict, giải quyết conflict và kiểm tra code trước khi commit hoặc push.
 6. Chỉ push trực tiếp lên `main` khi nhóm đã thống nhất; ưu tiên nhánh riêng và Pull Request nếu dự án áp dụng quy trình review code.
-
+</details>
