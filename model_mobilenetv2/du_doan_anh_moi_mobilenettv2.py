@@ -115,8 +115,6 @@
 
 # print("\nĐã hoàn tất dự đoán!")
 
-
-
 from pathlib import Path
 import json
 import numpy as np
