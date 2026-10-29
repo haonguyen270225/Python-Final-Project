@@ -1,9 +1,11 @@
-# 1. Chạy trogn PowerShell : cd D:\Python-Final-Project
-# 2 . Chạy trong PowerShell : .\.venv\Scripts\python.exe .\model_YoLo\du_doan_anh_moi_yolo.py
+# # 1. Chạy trogn PowerShell : cd D:\Python-Final-Project
+# # 2 . Chạy trong PowerShell : .\.venv\Scripts\python.exe .\model_YoLo\du_doan_anh_moi_yolo.py
 
 from pathlib import Path
 import csv
+
 from ultralytics import YOLO
+
 
 # ==================================================
 # 1. CẤU HÌNH
@@ -28,7 +30,10 @@ IMAGE_DIR = BASE_DIR / "anh_kiem_tra"
 OUTPUT_DIR = BASE_DIR / "ket_qua_YoLo"
 
 # File CSV lưu kết quả dự đoán
-CSV_PATH = Path(__file__).resolve().parent / "ket_qua_du_doan.csv"
+CSV_PATH = (
+    Path(__file__).resolve().parent
+    / "ket_qua_du_doan.csv"
+)
 
 IMAGE_EXTENSIONS = {
     ".jpg", ".jpeg", ".png",
@@ -37,13 +42,44 @@ IMAGE_EXTENSIONS = {
 
 
 # ==================================================
-# 2. KIỂM TRA ĐƯỜNG DẪN
+# 2. HÀM TÁCH LOẠI TIỀN VÀ MỆNH GIÁ
+# ==================================================
+
+def parse_currency_label(class_name):
+    """
+    Ví dụ:
+        CNY_100  -> CNY, 100
+        USD_50   -> USD, 50
+        VND_500000 -> VND, 500000
+    """
+
+    parts = str(class_name).strip().upper().split("_")
+
+    if len(parts) != 2:
+        return "", None
+
+    currency = parts[0]
+    denomination_text = parts[1]
+
+    if currency not in {"VND", "USD", "CNY"}:
+        return "", None
+
+    if not denomination_text.isdigit():
+        return "", None
+
+    denomination = int(denomination_text)
+
+    return currency, denomination
+
+
+# ==================================================
+# 3. KIỂM TRA ĐƯỜNG DẪN
 # ==================================================
 
 if not MODEL_PATH.is_file():
     raise FileNotFoundError(
         f"Không tìm thấy mô hình: {MODEL_PATH}\n"
-        "Hãy huấn luyện xong và kiểm tra lại đường dẫn best.pt."
+        "Hãy kiểm tra lại đường dẫn best.pt."
     )
 
 if not IMAGE_DIR.is_dir():
@@ -52,7 +88,8 @@ if not IMAGE_DIR.is_dir():
     )
 
 image_paths = sorted(
-    path for path in IMAGE_DIR.iterdir()
+    path
+    for path in IMAGE_DIR.iterdir()
     if path.is_file()
     and path.suffix.lower() in IMAGE_EXTENSIONS
 )
@@ -64,22 +101,41 @@ if not image_paths:
 
 
 # ==================================================
-# 3. NẠP MÔ HÌNH
+# 4. NẠP MÔ HÌNH
 # ==================================================
 
 model = YOLO(str(MODEL_PATH))
 
 print("=" * 60)
-print("DỰ ĐOÁN LOẠI TIỀN TỆ BẰNG YOLO")
+print("DỰ ĐOÁN MỆNH GIÁ VÀ LOẠI TIỀN BẰNG YOLO")
 print("=" * 60)
 
 print(f"Mô hình: {MODEL_PATH}")
 print(f"Thư mục ảnh: {IMAGE_DIR}")
 print(f"Số ảnh cần dự đoán: {len(image_paths)}")
 
+print("\nCác lớp nhận diện của mô hình:")
+
+for class_id, class_name in model.names.items():
+    currency, denomination = parse_currency_label(
+        class_name
+    )
+
+    denomination_text = (
+        f"{denomination:,}"
+        if denomination is not None
+        else "Chưa xác định"
+    )
+
+    print(
+        f"  {class_id}: {class_name}"
+        f" | Loại tiền: {currency or 'Chưa xác định'}"
+        f" | Mệnh giá: {denomination_text}"
+    )
+
 
 # ==================================================
-# 4. DỰ ĐOÁN
+# 5. DỰ ĐOÁN ẢNH
 # ==================================================
 
 results = model.predict(
@@ -95,7 +151,7 @@ results = model.predict(
 
 
 # ==================================================
-# 5. HIỂN THỊ VÀ THU THẬP KẾT QUẢ
+# 6. HIỂN THỊ VÀ THU THẬP KẾT QUẢ
 # ==================================================
 
 csv_rows = []
@@ -105,47 +161,84 @@ print("KẾT QUẢ DỰ ĐOÁN")
 print("=" * 60)
 
 for image_path, result in zip(image_paths, results):
+
     probabilities = result.probs
 
     if probabilities is None:
         print(f"\nẢnh: {image_path.name}")
-        print("  Không có kết quả phân loại")
+        print("  Không có kết quả phân loại.")
 
         csv_rows.append({
             "ten_anh": image_path.name,
             "loai_tien_du_doan": "",
+            "menh_gia_du_doan": "",
             "do_tin_cay_phan_tram": "",
             "duong_dan_anh_goc": str(image_path),
             "trang_thai": "Khong co ket qua phan loai"
         })
+
         continue
 
+    # Lấy lớp có xác suất cao nhất
     class_id = int(probabilities.top1)
     class_name = result.names[class_id]
-    confidence = float(probabilities.top1conf) * 100
+
+    # Độ tin cậy (%)
+    confidence = (
+        float(probabilities.top1conf) * 100
+    )
+
+    # Tách nhãn thành loại tiền và mệnh giá
+    currency, denomination = parse_currency_label(
+        class_name
+    )
+
+    denomination_text = (
+        f"{denomination:,}"
+        if denomination is not None
+        else "Chưa xác định"
+    )
+
+    if currency and denomination is not None:
+        status = "Thanh cong"
+    else:
+        status = "Nhan lop khong hop le"
 
     print(f"\nẢnh: {image_path.name}")
-    print(f"  Loại tiền dự đoán: {class_name}")
+    print(f"  Nhãn lớp: {class_name}")
+    print(f"  Loại tiền dự đoán: {currency or 'Chưa xác định'}")
+    print(f"  Mệnh giá dự đoán: {denomination_text}")
     print(f"  Độ tin cậy: {confidence:.2f}%")
 
     csv_rows.append({
         "ten_anh": image_path.name,
-        "loai_tien_du_doan": class_name,
-        "do_tin_cay_phan_tram": round(confidence, 2),
+        "loai_tien_du_doan": currency,
+        "menh_gia_du_doan": (
+            denomination
+            if denomination is not None
+            else ""
+        ),
+        "do_tin_cay_phan_tram": round(
+            confidence, 2
+        ),
         "duong_dan_anh_goc": str(image_path),
-        "trang_thai": "Thanh cong"
+        "trang_thai": status
     })
 
 
 # ==================================================
-# 6. XUẤT KẾT QUẢ RA FILE CSV
+# 7. XUẤT KẾT QUẢ RA FILE CSV
 # ==================================================
 
-CSV_PATH.parent.mkdir(parents=True, exist_ok=True)
+CSV_PATH.parent.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
 fieldnames = [
     "ten_anh",
     "loai_tien_du_doan",
+    "menh_gia_du_doan",
     "do_tin_cay_phan_tram",
     "duong_dan_anh_goc",
     "trang_thai"
@@ -156,6 +249,7 @@ with CSV_PATH.open(
     newline="",
     encoding="utf-8-sig"
 ) as csv_file:
+
     writer = csv.DictWriter(
         csv_file,
         fieldnames=fieldnames
@@ -166,7 +260,7 @@ with CSV_PATH.open(
 
 
 # ==================================================
-# 7. THÔNG BÁO HOÀN TẤT
+# 8. THÔNG BÁO HOÀN TẤT
 # ==================================================
 
 print("\n" + "=" * 60)
