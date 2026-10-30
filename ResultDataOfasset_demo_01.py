@@ -6,10 +6,10 @@ import pandas as pd
 from pathlib import Path
 
 # Thư mục gốc chứa ảnh tiền
-DATASET_DIR = Path("asset_demo_02_anh_chuan_hoa")
+DATASET_DIR = Path("asset_finally")
 
 # File CSV đầu ra
-OUTPUT_CSV = "cvsDataOfasset_demo_02.csv"
+OUTPUT_CSV = "cvsDataOfAssetFinally.csv"
 
 
 def extract_features(image_path):
