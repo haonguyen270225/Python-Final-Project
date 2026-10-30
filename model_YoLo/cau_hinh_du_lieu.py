@@ -138,10 +138,10 @@ import shutil
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Dataset ảnh gốc.
-ASSET_DIR = BASE_DIR / "asset"
+ASSET_DIR = BASE_DIR / "asset_finally"
 
 # Dataset đầu ra dành cho YOLO Classification.
-OUTPUT_DIR = BASE_DIR / "yolo_currency_dataset"
+OUTPUT_DIR = BASE_DIR / "asset_of_yolo"
 
 # Tỷ lệ chia dữ liệu.
 TRAIN_RATIO = 0.70
