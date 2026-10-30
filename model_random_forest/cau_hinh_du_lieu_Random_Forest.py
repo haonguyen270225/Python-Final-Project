@@ -36,9 +36,8 @@ import warnings
 # =========================================================
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-ASSET_DIR = BASE_DIR / "asset"
+ASSET_DIR = BASE_DIR / "asset_finally"
 OUTPUT_DIR = BASE_DIR / "asset_Random_Forest"
-
 # False: giữ dữ liệu cũ và thêm/cập nhật file mới.
 # True: xóa TOÀN BỘ asset_Random_Forest trước khi tạo lại.
 # Chỉ bật True nếu chắc chắn muốn dựng lại từ đầu.
@@ -243,6 +242,18 @@ if __name__ == "__main__":
         print(f"\nLỖI: {error}", file=sys.stderr)
         raise
 
-out = Path("/mnt/data/cau_hinh_du_lieu_Random_Forest.py")
-out.write_text(code, encoding="utf-8")
-print(f"Đã tạo file: {out} ({out.stat().st_size:,} bytes)")
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        print(f"\nLỖI: {error}", file=sys.stderr)
+        raise
+
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        print(f"\nLỖI: {error}", file=sys.stderr)
+        raise

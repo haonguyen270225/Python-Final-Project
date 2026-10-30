@@ -1,0 +1,58 @@
+=================================================================
+BÁO CÁO HUẤN LUYỆN RANDOM FOREST
+=================================================================
+
+Thời gian huấn luyện: 30/10/2026 18:26:33
+Thư mục dữ liệu: C:\Users\tranh\OneDrive\Desktop\Python-Final-Project\asset_Random_Forest
+Thư mục kết quả: C:\Users\tranh\OneDrive\Desktop\Python-Final-Project\ket_qua_random_forset
+
+CẤU HÌNH:
+- Kích thước ảnh: (64, 64)
+- Số đặc trưng mỗi ảnh: 4096
+- Số cây quyết định: 100
+- Random State: 42
+- Tỷ lệ Train: 80%
+- Tỷ lệ Test: 20%
+
+THỐNG KÊ DỮ LIỆU:
+- Tổng ảnh hợp lệ: 88053
+- Số ảnh Train: 70442
+- Số ảnh Test: 17611
+- Số ảnh bị bỏ qua: 0
+- Số lớp: 22
+
+SỐ LƯỢNG ẢNH THEO LỚP:
+- CNY_1: 3430 ảnh
+- CNY_10: 3619 ảnh
+- CNY_100: 4067 ảnh
+- CNY_20: 3402 ảnh
+- CNY_5: 2856 ảnh
+- CNY_50: 3759 ảnh
+- USD_1: 4214 ảnh
+- USD_10: 5327 ảnh
+- USD_100: 4312 ảnh
+- USD_2: 4298 ảnh
+- USD_20: 3654 ảnh
+- USD_5: 4298 ảnh
+- USD_50: 4774 ảnh
+- VND_1000: 4305 ảnh
+- VND_10000: 4088 ảnh
+- VND_100000: 4032 ảnh
+- VND_2000: 3374 ảnh
+- VND_20000: 4116 ảnh
+- VND_200000: 4277 ảnh
+- VND_5000: 3752 ảnh
+- VND_50000: 3745 ảnh
+- VND_500000: 4354 ảnh
+
+KẾT QUẢ ĐÁNH GIÁ:
+- Accuracy: 100.00%
+- Precision_Macro: 100.00%
+- Recall_Macro: 100.00%
+- F1_Macro: 100.00%
+- Precision_Weighted: 100.00%
+- Recall_Weighted: 100.00%
+- F1_Weighted: 100.00%
+
+Mô hình: rf_currency_classifier.pkl
+=================================================================
