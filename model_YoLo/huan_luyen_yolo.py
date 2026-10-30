@@ -125,9 +125,9 @@ from ultralytics import YOLO
 # huan_luyen.py nằm trong thư mục model_YoLo
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DATA_DIR = BASE_DIR / "yolo_currency_dataset"
+DATA_DIR = BASE_DIR / "asset_of_yolo"
 
-PROJECT_DIR = BASE_DIR / "runs" / "classify"
+PROJECT_DIR = BASE_DIR / "ket_qua_yolo"
 MODEL_NAME = "currency_yolo11n_cls"
 
 IMAGE_EXTENSIONS = {
