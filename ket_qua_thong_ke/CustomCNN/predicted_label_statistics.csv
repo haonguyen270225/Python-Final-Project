@@ -1,0 +1,58 @@
+﻿Model,Predicted Label,Count
+Model 1,20,2
+Model 1,10 dollar,2
+Model 1,1 dollar,2
+Model 1,2 doolar,2
+Model 1,20 dollar,2
+Model 1,10,2
+Model 1,5,2
+Model 1,5 dollar,2
+Model 1,050000,2
+Model 1,020000,2
+Model 1,50,2
+Model 1,50 dollar,2
+Model 1,1,2
+Model 1,100000,2
+Model 1,200000,2
+Model 1,500000,2
+Model 1,002000,2
+Model 1,010000,2
+Model 1,001000,2
+Model 1,005000,2
+Model 1,100 dollar,2
+Model 1,100,2
+Model 2,20 dollar,6
+Model 2,010000,4
+Model 2,002000,3
+Model 2,50,3
+Model 2,200000,3
+Model 2,10,2
+Model 2,100,2
+Model 2,10 dollar,2
+Model 2,20,2
+Model 2,005000,2
+Model 2,500000,2
+Model 2,5,2
+Model 2,1 dollar,2
+Model 2,2 doolar,2
+Model 2,50 dollar,2
+Model 2,5 dollar,1
+Model 2,001000,1
+Model 2,1,1
+Model 2,100000,1
+Model 2,050000,1
+Model 3,010000,5
+Model 3,20 dollar,5
+Model 3,500000,5
+Model 3,1,5
+Model 3,5,5
+Model 3,005000,4
+Model 3,200000,3
+Model 3,002000,2
+Model 3,20,2
+Model 3,100,2
+Model 3,050000,2
+Model 3,50,1
+Model 3,10 dollar,1
+Model 3,50 dollar,1
+Model 3,100000,1

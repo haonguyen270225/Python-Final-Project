@@ -18,7 +18,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE_DIR = SCRIPT_DIR.parent
 
 # Thư mục chứa ảnh cần dự đoán
-IMAGE_DIR = BASE_DIR / "anh_kiem_tra"
+IMAGE_DIR = BASE_DIR / "anh_kiem_tra/Bo_test_3"
 
 # Thư mục chứa mô hình Custom CNN đã huấn luyện
 OUTPUT_DIR = BASE_DIR / "ket_qua_custom_cnn"
@@ -30,7 +30,7 @@ MODEL_PATH = OUTPUT_DIR / "best_custom_cnn.keras"
 CLASS_NAMES_PATH = OUTPUT_DIR / "class_names.json"
 
 # Đường dẫn lưu bảng kết quả dự đoán
-CSV_PATH = BASE_DIR / "model_custom_cnn/ket_qua_du_doan_custom_cnn.csv"
+CSV_PATH = BASE_DIR / "model_custom_cnn/ket_qua_du_doan_custom_cnn_test_03.csv"
 
 # Các định dạng ảnh được hỗ trợ
 IMAGE_EXTENSIONS = {

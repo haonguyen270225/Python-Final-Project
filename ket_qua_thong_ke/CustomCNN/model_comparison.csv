@@ -1,0 +1,4 @@
+﻿Model,Total Images,Successful,Failed,Success Rate (%),Average Confidence (%),Max Confidence (%),Min Confidence (%)
+Model 1,44,44,0,100.0,98.59,100.0,81.16
+Model 2,44,44,0,100.0,86.04,100.0,46.3
+Model 3,44,44,0,100.0,73.76,100.0,27.13

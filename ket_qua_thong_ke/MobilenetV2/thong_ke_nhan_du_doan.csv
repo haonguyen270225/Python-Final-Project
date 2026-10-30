@@ -1,0 +1,54 @@
+﻿Mô hình,Nhãn dự đoán,Số lượng ảnh
+Mô hình 1,AmericanDollar_50 Dollar,3
+Mô hình 1,VietnameseDong_020000,3
+Mô hình 1,ChineseYuan_20,2
+Mô hình 1,AmericanDollar_10 Dollar,2
+Mô hình 1,AmericanDollar_1 Dollar,2
+Mô hình 1,AmericanDollar_2 Doolar,2
+Mô hình 1,AmericanDollar_20 Dollar,2
+Mô hình 1,ChineseYuan_10,2
+Mô hình 1,ChineseYuan_5,2
+Mô hình 1,VietnameseDong_050000,2
+Mô hình 1,ChineseYuan_50,2
+Mô hình 1,ChineseYuan_1,2
+Mô hình 1,VietnameseDong_100000,2
+Mô hình 1,VietnameseDong_200000,2
+Mô hình 1,VietnameseDong_002000,2
+Mô hình 1,VietnameseDong_010000,2
+Mô hình 1,VietnameseDong_001000,2
+Mô hình 1,VietnameseDong_005000,2
+Mô hình 1,AmericanDollar_100 Dollar,2
+Mô hình 1,ChineseYuan_100,2
+Mô hình 1,AmericanDollar_5 Dollar,1
+Mô hình 1,VietnameseDong_500000,1
+Mô hình 2,VietnameseDong_010000,5
+Mô hình 2,AmericanDollar_20 Dollar,4
+Mô hình 2,VietnameseDong_002000,3
+Mô hình 2,VietnameseDong_050000,3
+Mô hình 2,VietnameseDong_005000,3
+Mô hình 2,ChineseYuan_10,2
+Mô hình 2,ChineseYuan_100,2
+Mô hình 2,AmericanDollar_10 Dollar,2
+Mô hình 2,ChineseYuan_20,2
+Mô hình 2,VietnameseDong_500000,2
+Mô hình 2,ChineseYuan_5,2
+Mô hình 2,AmericanDollar_1 Dollar,2
+Mô hình 2,AmericanDollar_2 Doolar,2
+Mô hình 2,AmericanDollar_5 Dollar,2
+Mô hình 2,ChineseYuan_1,2
+Mô hình 2,VietnameseDong_020000,2
+Mô hình 2,ChineseYuan_50,1
+Mô hình 2,VietnameseDong_200000,1
+Mô hình 2,AmericanDollar_50 Dollar,1
+Mô hình 2,VietnameseDong_001000,1
+Mô hình 3,VietnameseDong_100000,8
+Mô hình 3,VietnameseDong_002000,7
+Mô hình 3,ChineseYuan_5,7
+Mô hình 3,AmericanDollar_20 Dollar,7
+Mô hình 3,ChineseYuan_1,6
+Mô hình 3,VietnameseDong_005000,3
+Mô hình 3,ChineseYuan_100,2
+Mô hình 3,VietnameseDong_200000,1
+Mô hình 3,AmericanDollar_10 Dollar,1
+Mô hình 3,AmericanDollar_100 Dollar,1
+Mô hình 3,VietnameseDong_050000,1

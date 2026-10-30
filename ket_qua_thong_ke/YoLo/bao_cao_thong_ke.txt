@@ -1,0 +1,177 @@
+BÁO CÁO THỐNG KÊ KẾT QUẢ 3 MÔ HÌNH YOLO
+
+Lưu ý:
+Các tệp CSV hiện tại chưa có nhãn thực tế.
+Do đó chưa thể tính Accuracy, Precision, Recall, F1-score và Confusion Matrix.
+
+========== Mô hình 1 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Tỷ lệ thành công: 100.00%
+Độ tin cậy trung bình: 99.92%
+Độ tin cậy cao nhất: 100.00%
+Độ tin cậy thấp nhất: 97.22%
+
+Thống kê theo loại tiền:
+loai_tien_du_doan
+VND    18
+USD    14
+CNY    12
+
+Thống kê theo mệnh giá:
+menh_gia_du_doan
+20        4
+10        4
+1         4
+5         4
+50        4
+100       4
+2         2
+50000     2
+20000     2
+100000    2
+200000    2
+500000    2
+2000      2
+10000     2
+1000      2
+5000      2
+
+Thống kê theo loại tiền - mệnh giá:
+Loại tiền - Mệnh giá
+CNY - 20        2
+USD - 10        2
+USD - 1         2
+USD - 2         2
+USD - 20        2
+CNY - 10        2
+CNY - 5         2
+USD - 5         2
+VND - 50000     2
+VND - 20000     2
+CNY - 50        2
+USD - 50        2
+CNY - 1         2
+VND - 100000    2
+VND - 200000    2
+VND - 500000    2
+VND - 2000      2
+VND - 10000     2
+VND - 1000      2
+VND - 5000      2
+USD - 100       2
+CNY - 100       2
+
+========== Mô hình 2 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Tỷ lệ thành công: 100.00%
+Độ tin cậy trung bình: 94.92%
+Độ tin cậy cao nhất: 100.00%
+Độ tin cậy thấp nhất: 39.70%
+
+Thống kê theo loại tiền:
+loai_tien_du_doan
+VND    18
+USD    14
+CNY    12
+
+Thống kê theo mệnh giá:
+menh_gia_du_doan
+20        7
+10        4
+5         4
+1         4
+50        3
+10000     3
+20000     3
+2000      2
+100       2
+200000    2
+500000    2
+2         2
+1000      2
+100000    2
+5000      1
+50000     1
+
+Thống kê theo loại tiền - mệnh giá:
+Loại tiền - Mệnh giá
+USD - 20        5
+VND - 10000     3
+VND - 20000     3
+VND - 2000      2
+CNY - 10        2
+CNY - 100       2
+CNY - 50        2
+USD - 10        2
+CNY - 20        2
+VND - 200000    2
+VND - 500000    2
+CNY - 5         2
+USD - 1         2
+USD - 2         2
+USD - 5         2
+VND - 1000      2
+CNY - 1         2
+VND - 100000    2
+VND - 5000      1
+USD - 50        1
+VND - 50000     1
+
+========== Mô hình 3 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Tỷ lệ thành công: 100.00%
+Độ tin cậy trung bình: 87.02%
+Độ tin cậy cao nhất: 100.00%
+Độ tin cậy thấp nhất: 32.69%
+
+Thống kê theo loại tiền:
+loai_tien_du_doan
+VND    17
+USD    15
+CNY    12
+
+Thống kê theo mệnh giá:
+menh_gia_du_doan
+20        14
+2000       4
+1          4
+5000       3
+200000     2
+1000       2
+50         2
+100000     2
+100        2
+5          2
+10         2
+500000     1
+10000      1
+50000      1
+20000      1
+2          1
+
+Thống kê theo loại tiền - mệnh giá:
+Loại tiền - Mệnh giá
+USD - 20        12
+VND - 2000       4
+VND - 5000       3
+CNY - 1          2
+VND - 200000     2
+VND - 1000       2
+CNY - 50         2
+VND - 100000     2
+CNY - 100        2
+CNY - 5          2
+CNY - 20         2
+USD - 1          2
+CNY - 10         2
+VND - 500000     1
+VND - 10000      1
+VND - 50000      1
+VND - 20000      1
+USD - 2          1

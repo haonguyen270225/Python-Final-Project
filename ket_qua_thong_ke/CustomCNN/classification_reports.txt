@@ -1,0 +1,88 @@
+BAO CAO THONG KE KET QUA 3 MO HINH CUSTOM CNN
+
+Lưu ý: File CSV không có nhãn thực tế.
+Không thể tính Accuracy, Precision, Recall, F1-score và Confusion Matrix.
+
+========== Model 1 ==========
+Tong so anh: 44
+So anh xu ly thanh cong: 44
+So anh xu ly that bai: 0
+Do tin cay trung binh: 98.59%
+
+Thong ke theo nhan du doan:
+Nhãn dự đoán
+20            2
+10 dollar     2
+1 dollar      2
+2 doolar      2
+20 dollar     2
+10            2
+5             2
+5 dollar      2
+050000        2
+020000        2
+50            2
+50 dollar     2
+1             2
+100000        2
+200000        2
+500000        2
+002000        2
+010000        2
+001000        2
+005000        2
+100 dollar    2
+100           2
+
+========== Model 2 ==========
+Tong so anh: 44
+So anh xu ly thanh cong: 44
+So anh xu ly that bai: 0
+Do tin cay trung binh: 86.04%
+
+Thong ke theo nhan du doan:
+Nhãn dự đoán
+20 dollar    6
+010000       4
+002000       3
+50           3
+200000       3
+10           2
+100          2
+10 dollar    2
+20           2
+005000       2
+500000       2
+5            2
+1 dollar     2
+2 doolar     2
+50 dollar    2
+5 dollar     1
+001000       1
+1            1
+100000       1
+050000       1
+
+========== Model 3 ==========
+Tong so anh: 44
+So anh xu ly thanh cong: 44
+So anh xu ly that bai: 0
+Do tin cay trung binh: 73.76%
+
+Thong ke theo nhan du doan:
+Nhãn dự đoán
+010000       5
+20 dollar    5
+500000       5
+1            5
+5            5
+005000       4
+200000       3
+002000       2
+20           2
+100          2
+050000       2
+50           1
+10 dollar    1
+50 dollar    1
+100000       1

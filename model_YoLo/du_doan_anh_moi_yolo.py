@@ -23,7 +23,7 @@ MODEL_PATH = (
 )
 
 # Thư mục chứa ảnh cần dự đoán
-IMAGE_DIR = BASE_DIR / "anh_kiem_tra/Bo_test_1"
+IMAGE_DIR = BASE_DIR / "anh_kiem_tra/Bo_test_3"
 
 # Thư mục lưu ảnh kết quả
 OUTPUT_DIR = BASE_DIR / "model_YoLo"
@@ -31,7 +31,7 @@ OUTPUT_DIR = BASE_DIR / "model_YoLo"
 # File CSV lưu kết quả dự đoán
 CSV_PATH = (
     Path(__file__).resolve().parent
-    / "ket_qua_du_doan.csv"
+    / "ket_qua_du_doan_yolo_test_03.csv"
 )
 
 IMAGE_EXTENSIONS = {

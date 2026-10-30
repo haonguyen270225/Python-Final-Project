@@ -1,0 +1,4 @@
+﻿Mô hình,Tổng số ảnh,Số ảnh thành công,Số ảnh thất bại,Tỷ lệ thành công (%),Độ tin cậy trung bình (%),Độ tin cậy cao nhất (%),Độ tin cậy thấp nhất (%)
+Mô hình 1,44,44,0,100.0,98.21,100.0,71.25
+Mô hình 2,44,44,0,100.0,92.4,100.0,34.44
+Mô hình 3,44,44,0,100.0,77.37,99.99,37.28

@@ -1,0 +1,85 @@
+BÁO CÁO THỐNG KÊ KẾT QUẢ 3 MÔ HÌNH CUSTOM CNN
+
+Lưu ý:
+Các tệp CSV hiện tại chưa có nhãn thực tế.
+Do đó chưa thể tính Accuracy, Precision, Recall, F1-score và Confusion Matrix.
+
+========== Mô hình 1 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Độ tin cậy trung bình: 98.21%
+
+Thống kê theo nhãn dự đoán:
+Nhãn dự đoán
+AmericanDollar_50 Dollar     3
+VietnameseDong_020000        3
+ChineseYuan_20               2
+AmericanDollar_10 Dollar     2
+AmericanDollar_1 Dollar      2
+AmericanDollar_2 Doolar      2
+AmericanDollar_20 Dollar     2
+ChineseYuan_10               2
+ChineseYuan_5                2
+VietnameseDong_050000        2
+ChineseYuan_50               2
+ChineseYuan_1                2
+VietnameseDong_100000        2
+VietnameseDong_200000        2
+VietnameseDong_002000        2
+VietnameseDong_010000        2
+VietnameseDong_001000        2
+VietnameseDong_005000        2
+AmericanDollar_100 Dollar    2
+ChineseYuan_100              2
+AmericanDollar_5 Dollar      1
+VietnameseDong_500000        1
+
+========== Mô hình 2 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Độ tin cậy trung bình: 92.40%
+
+Thống kê theo nhãn dự đoán:
+Nhãn dự đoán
+VietnameseDong_010000       5
+AmericanDollar_20 Dollar    4
+VietnameseDong_002000       3
+VietnameseDong_050000       3
+VietnameseDong_005000       3
+ChineseYuan_10              2
+ChineseYuan_100             2
+AmericanDollar_10 Dollar    2
+ChineseYuan_20              2
+VietnameseDong_500000       2
+ChineseYuan_5               2
+AmericanDollar_1 Dollar     2
+AmericanDollar_2 Doolar     2
+AmericanDollar_5 Dollar     2
+ChineseYuan_1               2
+VietnameseDong_020000       2
+ChineseYuan_50              1
+VietnameseDong_200000       1
+AmericanDollar_50 Dollar    1
+VietnameseDong_001000       1
+
+========== Mô hình 3 ==========
+Tổng số ảnh: 44
+Số ảnh xử lý thành công: 44
+Số ảnh xử lý thất bại: 0
+Độ tin cậy trung bình: 77.37%
+
+Thống kê theo nhãn dự đoán:
+Nhãn dự đoán
+VietnameseDong_100000        8
+VietnameseDong_002000        7
+ChineseYuan_5                7
+AmericanDollar_20 Dollar     7
+ChineseYuan_1                6
+VietnameseDong_005000        3
+ChineseYuan_100              2
+VietnameseDong_200000        1
+AmericanDollar_10 Dollar     1
+AmericanDollar_100 Dollar    1
+VietnameseDong_050000        1

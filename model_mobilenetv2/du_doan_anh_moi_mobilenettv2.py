@@ -147,10 +147,10 @@ CLASS_NAMES_PATH = (
 )
 
 # Thư mục chứa ảnh cần kiểm tra
-IMAGE_DIR = PROJECT_DIR / "anh_kiem_tra/Bo_test_1"
+IMAGE_DIR = PROJECT_DIR / "anh_kiem_tra/Bo_test_3"
 
 # File lưu bảng kết quả dự đoán
-CSV_PATH = BASE_DIR / "ket_qua_du_doan.csv"
+CSV_PATH = BASE_DIR / "ket_qua_du_doan_mobilenetv2_test_03.csv"
 
 # Các định dạng ảnh được hỗ trợ
 IMAGE_EXTENSIONS = {

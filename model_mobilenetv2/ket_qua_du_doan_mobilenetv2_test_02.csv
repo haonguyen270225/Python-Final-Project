@@ -1,0 +1,45 @@
+﻿Tên ảnh,Nhãn dự đoán,Độ tin cậy (%),Top 3 dự đoán,Trạng thái
+1.png,VietnameseDong_002000,100.0,VietnameseDong_002000: 100.00% | AmericanDollar_20 Dollar: 0.00% | VietnameseDong_005000: 0.00%,Thành công
+10.jpg,ChineseYuan_10,99.86,ChineseYuan_10: 99.86% | ChineseYuan_50: 0.08% | ChineseYuan_1: 0.04%,Thành công
+11.jpg,ChineseYuan_100,99.69,ChineseYuan_100: 99.69% | ChineseYuan_20: 0.30% | VietnameseDong_010000: 0.00%,Thành công
+12.jpg,ChineseYuan_50,99.99,ChineseYuan_50: 99.99% | ChineseYuan_10: 0.01% | ChineseYuan_5: 0.00%,Thành công
+13.jpg,AmericanDollar_10 Dollar,99.99,AmericanDollar_10 Dollar: 99.99% | AmericanDollar_100 Dollar: 0.00% | AmericanDollar_50 Dollar: 0.00%,Thành công
+14.jpg,AmericanDollar_20 Dollar,99.61,AmericanDollar_20 Dollar: 99.61% | VietnameseDong_005000: 0.17% | VietnameseDong_100000: 0.08%,Thành công
+15.jpg,AmericanDollar_20 Dollar,99.88,AmericanDollar_20 Dollar: 99.88% | AmericanDollar_100 Dollar: 0.04% | VietnameseDong_500000: 0.03%,Thành công
+16.jpg,ChineseYuan_20,99.4,ChineseYuan_20: 99.40% | ChineseYuan_5: 0.57% | VietnameseDong_010000: 0.03%,Thành công
+17.jpg,VietnameseDong_200000,99.2,VietnameseDong_200000: 99.20% | VietnameseDong_100000: 0.44% | VietnameseDong_010000: 0.30%,Thành công
+18.jpg,VietnameseDong_010000,95.59,VietnameseDong_010000: 95.59% | ChineseYuan_50: 3.34% | ChineseYuan_5: 1.02%,Thành công
+19.jpg,VietnameseDong_050000,94.46,VietnameseDong_050000: 94.46% | VietnameseDong_200000: 4.05% | VietnameseDong_010000: 1.06%,Thành công
+2.png,VietnameseDong_005000,99.49,VietnameseDong_005000: 99.49% | VietnameseDong_002000: 0.37% | VietnameseDong_010000: 0.11%,Thành công
+20.jpg,VietnameseDong_500000,96.13,VietnameseDong_500000: 96.13% | AmericanDollar_20 Dollar: 0.97% | VietnameseDong_100000: 0.89%,Thành công
+21.jpg,VietnameseDong_050000,99.68,VietnameseDong_050000: 99.68% | VietnameseDong_020000: 0.08% | VietnameseDong_002000: 0.07%,Thành công
+22.jpg,VietnameseDong_010000,99.5,VietnameseDong_010000: 99.50% | VietnameseDong_050000: 0.44% | VietnameseDong_020000: 0.05%,Thành công
+23.jpg,ChineseYuan_100,100.0,ChineseYuan_100: 100.00% | VietnameseDong_100000: 0.00% | ChineseYuan_5: 0.00%,Thành công
+24.jpg,ChineseYuan_5,99.21,ChineseYuan_5: 99.21% | ChineseYuan_100: 0.79% | VietnameseDong_002000: 0.00%,Thành công
+25.jpg,AmericanDollar_10 Dollar,100.0,AmericanDollar_10 Dollar: 100.00% | AmericanDollar_100 Dollar: 0.00% | VietnameseDong_100000: 0.00%,Thành công
+26.jpg,VietnameseDong_005000,81.05,VietnameseDong_005000: 81.05% | VietnameseDong_100000: 16.81% | ChineseYuan_10: 1.07%,Thành công
+27.jpg,AmericanDollar_20 Dollar,99.33,AmericanDollar_20 Dollar: 99.33% | VietnameseDong_005000: 0.41% | ChineseYuan_20: 0.18%,Thành công
+28.jpg,AmericanDollar_1 Dollar,100.0,AmericanDollar_1 Dollar: 100.00% | AmericanDollar_100 Dollar: 0.00% | AmericanDollar_50 Dollar: 0.00%,Thành công
+29.jpg,AmericanDollar_2 Doolar,100.0,AmericanDollar_2 Doolar: 100.00% | AmericanDollar_50 Dollar: 0.00% | AmericanDollar_10 Dollar: 0.00%,Thành công
+3.jpg,ChineseYuan_10,94.79,ChineseYuan_10: 94.79% | ChineseYuan_1: 2.54% | VietnameseDong_050000: 1.77%,Thành công
+30.jpg,AmericanDollar_5 Dollar,95.59,AmericanDollar_5 Dollar: 95.59% | AmericanDollar_50 Dollar: 4.40% | AmericanDollar_100 Dollar: 0.00%,Thành công
+31.jpg,AmericanDollar_2 Doolar,99.62,AmericanDollar_2 Doolar: 99.62% | AmericanDollar_50 Dollar: 0.36% | AmericanDollar_1 Dollar: 0.02%,Thành công
+32.jpg,AmericanDollar_50 Dollar,99.98,AmericanDollar_50 Dollar: 99.98% | AmericanDollar_5 Dollar: 0.01% | AmericanDollar_10 Dollar: 0.01%,Thành công
+33.jpg,AmericanDollar_5 Dollar,75.94,AmericanDollar_5 Dollar: 75.94% | AmericanDollar_50 Dollar: 16.94% | VietnameseDong_100000: 6.58%,Thành công
+34.jpg,VietnameseDong_002000,99.25,VietnameseDong_002000: 99.25% | AmericanDollar_20 Dollar: 0.39% | ChineseYuan_5: 0.19%,Thành công
+35.jpg,VietnameseDong_005000,71.65,VietnameseDong_005000: 71.65% | VietnameseDong_001000: 14.09% | AmericanDollar_20 Dollar: 5.88%,Thành công
+36.jpg,VietnameseDong_001000,34.44,VietnameseDong_001000: 34.44% | VietnameseDong_010000: 25.45% | AmericanDollar_20 Dollar: 23.03%,Thành công
+37.jpg,VietnameseDong_002000,69.41,VietnameseDong_002000: 69.41% | AmericanDollar_20 Dollar: 28.43% | VietnameseDong_001000: 1.06%,Thành công
+38.jpg,AmericanDollar_20 Dollar,98.63,AmericanDollar_20 Dollar: 98.63% | VietnameseDong_001000: 1.05% | AmericanDollar_100 Dollar: 0.22%,Thành công
+39.jpg,VietnameseDong_500000,69.38,VietnameseDong_500000: 69.38% | VietnameseDong_002000: 13.46% | VietnameseDong_010000: 6.59%,Thành công
+4.jpg,ChineseYuan_1,99.93,ChineseYuan_1: 99.93% | ChineseYuan_5: 0.07% | ChineseYuan_20: 0.01%,Thành công
+40.jpg,VietnameseDong_010000,68.67,VietnameseDong_010000: 68.67% | VietnameseDong_100000: 9.11% | VietnameseDong_500000: 8.17%,Thành công
+41.jpg,VietnameseDong_010000,96.83,VietnameseDong_010000: 96.83% | VietnameseDong_100000: 1.48% | VietnameseDong_500000: 0.99%,Thành công
+42.jpg,VietnameseDong_020000,97.13,VietnameseDong_020000: 97.13% | AmericanDollar_20 Dollar: 2.76% | VietnameseDong_010000: 0.08%,Thành công
+43.jpg,VietnameseDong_010000,99.78,VietnameseDong_010000: 99.78% | VietnameseDong_005000: 0.07% | VietnameseDong_050000: 0.06%,Thành công
+44.jpg,VietnameseDong_020000,81.32,VietnameseDong_020000: 81.32% | VietnameseDong_050000: 8.36% | AmericanDollar_20 Dollar: 4.68%,Thành công
+5.jpg,ChineseYuan_20,99.97,ChineseYuan_20: 99.97% | VietnameseDong_050000: 0.02% | ChineseYuan_5: 0.00%,Thành công
+6.jpg,ChineseYuan_5,100.0,ChineseYuan_5: 100.00% | ChineseYuan_10: 0.00% | ChineseYuan_1: 0.00%,Thành công
+7.jpg,VietnameseDong_050000,98.86,VietnameseDong_050000: 98.86% | VietnameseDong_100000: 0.68% | VietnameseDong_200000: 0.27%,Thành công
+8.jpg,ChineseYuan_1,52.4,ChineseYuan_1: 52.40% | ChineseYuan_5: 47.02% | ChineseYuan_50: 0.27%,Thành công
+9.jpg,AmericanDollar_1 Dollar,99.98,AmericanDollar_1 Dollar: 99.98% | AmericanDollar_100 Dollar: 0.02% | VietnameseDong_002000: 0.00%,Thành công
