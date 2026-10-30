@@ -1,66 +1,41 @@
 ﻿Tên ảnh,Nhãn dự đoán,Độ tin cậy (%),Top 3 dự đoán,Trạng thái
-01f0a9c90e4ee70de4cb841c80f8c8e0.jpg,10_usd,100.0,10_usd: 100.00% | 100_usd: 0.00% | 50_usd: 0.00%,Thành công
-01f9e8bbd26e9a16ab05a400d6ab1d57.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 1_usd: 0.00%,Thành công
-01f9e8bbd26e9a16ab05a400d6ab1d572.jpg,10_usd,100.0,10_usd: 100.00% | 1_usd: 0.00% | 50_usd: 0.00%,Thành công
-01f9e8bbd26e9a16ab05a400d6ab1d57_8.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-0b55f1bc-9940-42b6-ad2e-00a4e17ed1d8_1.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-0cf4fb238153aad830237f05631741b5.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-0f934b6c2d9f4d49b9b13daba0fe6b9f.jpg,10_usd,99.85,10_usd: 99.85% | 100_usd: 0.14% | 1_usd: 0.00%,Thành công
-0lz815rkscp71.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_cny: 0.00%,Thành công
-1-1GNQH-e1533726660639.jpeg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-1.jpg,5_cny,70.93,5_cny: 70.93% | 10_usd: 19.68% | 10_cny: 7.37%,Thành công
-1_1.jpg,10_usd,81.57,10_usd: 81.57% | 100_cny: 7.79% | 20_cny: 6.65%,Thành công
-1_2.jpg,5_cny,93.6,5_cny: 93.60% | 100_cny: 4.18% | 20_cny: 2.01%,Thành công
-1d58c8ea5e884697d0a9e54d619457f5.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-1vcvcvcv.jpg,5_cny,93.13,5_cny: 93.13% | 100_cny: 4.59% | 20_cny: 2.06%,Thành công
-20-1.jpg,20_cny,55.69,20_cny: 55.69% | 5_cny: 24.48% | 100_cny: 13.61%,Thành công
-20-11.jpg,200000_vnd,38.1,200000_vnd: 38.10% | 20_cny: 27.48% | 5_cny: 17.95%,Thành công
-20-12.jpg,20_cny,60.53,20_cny: 60.53% | 100_cny: 29.21% | 5_cny: 8.24%,Thành công
-20-13.jpg,20_cny,64.05,20_cny: 64.05% | 5_cny: 21.76% | 100_cny: 11.42%,Thành công
-20-14.jpg,20_cny,60.35,20_cny: 60.35% | 5_cny: 25.38% | 200000_vnd: 7.27%,Thành công
-20-15.jpg,20_cny,84.63,20_cny: 84.63% | 5_cny: 7.92% | 100_cny: 7.01%,Thành công
-20-16.jpg,20_cny,91.66,20_cny: 91.66% | 5_cny: 4.72% | 100_cny: 3.51%,Thành công
-20-17.jpg,20_cny,82.64,20_cny: 82.64% | 100_cny: 9.32% | 5_cny: 7.80%,Thành công
-20-18.jpg,100_cny,46.6,100_cny: 46.60% | 20_cny: 41.31% | 5_cny: 6.37%,Thành công
-20-2.jpg,20_cny,66.33,20_cny: 66.33% | 5_cny: 26.67% | 100_cny: 4.82%,Thành công
-20-21.jpg,20_cny,86.67,20_cny: 86.67% | 5_cny: 10.35% | 100_cny: 2.73%,Thành công
-20-22.jpg,20_cny,78.57,20_cny: 78.57% | 5_cny: 17.76% | 100_cny: 3.34%,Thành công
-20-23.jpg,20_cny,87.84,20_cny: 87.84% | 100_cny: 6.97% | 5_cny: 5.10%,Thành công
-20-24.jpg,20_cny,75.13,20_cny: 75.13% | 100_cny: 13.95% | 5_cny: 10.75%,Thành công
-20-25.jpg,20_cny,47.49,20_cny: 47.49% | 5_cny: 24.28% | 200000_vnd: 16.85%,Thành công
-20-26.jpg,20_cny,72.45,20_cny: 72.45% | 5_cny: 19.31% | 100_cny: 8.20%,Thành công
-20-27.jpg,20_cny,91.3,20_cny: 91.30% | 100_cny: 8.34% | 5_cny: 0.36%,Thành công
-20-28.jpg,20_cny,79.06,20_cny: 79.06% | 100_cny: 20.31% | 5_cny: 0.63%,Thành công
-20-3.jpg,20_cny,62.14,20_cny: 62.14% | 100_cny: 17.96% | 5_cny: 16.15%,Thành công
-20-31.jpg,20_cny,98.03,20_cny: 98.03% | 100_cny: 1.45% | 5_cny: 0.24%,Thành công
-20-32.jpg,20_cny,52.89,20_cny: 52.89% | 100_cny: 37.33% | 5_cny: 9.08%,Thành công
-20-33.jpg,20_cny,57.9,20_cny: 57.90% | 100_cny: 36.92% | 5_cny: 3.17%,Thành công
-20-34.jpg,20_cny,49.11,20_cny: 49.11% | 100_cny: 43.72% | 5_cny: 3.40%,Thành công
-20-35.jpg,10_cny,55.63,10_cny: 55.63% | 5_cny: 30.16% | 20_cny: 12.30%,Thành công
-20-36.jpg,20_cny,79.31,20_cny: 79.31% | 5_cny: 18.00% | 100_cny: 2.68%,Thành công
-20-38.jpg,20_cny,98.04,20_cny: 98.04% | 100_cny: 1.93% | 5_cny: 0.03%,Thành công
-20-39.jpg,200000_vnd,95.74,200000_vnd: 95.74% | 100_cny: 2.59% | 20_cny: 1.01%,Thành công
-20-4.jpg,5_cny,35.99,5_cny: 35.99% | 20_cny: 30.56% | 200000_vnd: 27.17%,Thành công
-20-42.jpg,20_cny,73.71,20_cny: 73.71% | 100_cny: 23.08% | 5_usd: 1.39%,Thành công
-20-43.jpg,20_cny,99.37,20_cny: 99.37% | 5_cny: 0.32% | 100_cny: 0.32%,Thành công
-20-44.jpg,20_cny,86.77,20_cny: 86.77% | 5_cny: 12.67% | 100_cny: 0.50%,Thành công
-20-45.jpg,100_cny,88.76,100_cny: 88.76% | 20_cny: 11.22% | 5_cny: 0.02%,Thành công
-20-46.jpg,20_cny,84.86,20_cny: 84.86% | 5_cny: 10.96% | 100_cny: 3.45%,Thành công
-20-47.jpg,20_cny,99.38,20_cny: 99.38% | 100_cny: 0.30% | 5_cny: 0.30%,Thành công
-20-48.jpg,20_cny,98.09,20_cny: 98.09% | 100_cny: 1.36% | 5_cny: 0.52%,Thành công
-20-49.jpg,20_cny,97.14,20_cny: 97.14% | 100_cny: 2.26% | 5_cny: 0.60%,Thành công
-20-5.jpg,20_cny,59.54,20_cny: 59.54% | 5_cny: 33.73% | 100_cny: 4.29%,Thành công
-20-6.jpg,200000_vnd,87.79,200000_vnd: 87.79% | 5_cny: 4.46% | 20_cny: 3.47%,Thành công
-20-7.jpg,200000_vnd,50.18,200000_vnd: 50.18% | 20_cny: 23.88% | 5_cny: 16.98%,Thành công
-20-8.jpg,100_cny,70.82,100_cny: 70.82% | 20_cny: 26.95% | 5_cny: 2.02%,Thành công
-2c9939a1-9fb6-4647-b7ea-aaf87b1744b2.92ccb3c46e5bd2b117d06cc43effe436.jpeg,100_usd,41.21,100_usd: 41.21% | 1_usd: 40.40% | 10_cny: 13.02%,Thành công
-2c9939a1-9fb6-4647-b7ea-aaf87b1744b2.92ccb3c46e5bd2b117d06cc43effe436_1.jpeg,100_usd,41.22,100_usd: 41.22% | 1_usd: 40.40% | 10_cny: 13.01%,Thành công
-_12.JPG.jpg,10_usd,100.0,10_usd: 100.00% | 100_usd: 0.00% | 50_usd: 0.00%,Thành công
-_12.JPG2.jpg,10_usd,100.0,10_usd: 100.00% | 100_usd: 0.00% | 1_usd: 0.00%,Thành công
-_12.JPG_1.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-_12.JPG_3.jpg,10_usd,97.55,10_usd: 97.55% | 100_cny: 2.42% | 5_usd: 0.02%,Thành công
-_12.JPG_5.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-_12.JPG_6.jpg,10_usd,100.0,10_usd: 100.00% | 100_usd: 0.00% | 50_usd: 0.00%,Thành công
-_12.JPG_7.jpg,10_usd,100.0,10_usd: 100.00% | 50_usd: 0.00% | 100_usd: 0.00%,Thành công
-_12.JPG_9.jpg,10_usd,100.0,10_usd: 100.00% | 100_usd: 0.00% | 50_usd: 0.00%,Thành công
-_12vcvcvcv.JPG.jpg,10_usd,98.33,10_usd: 98.33% | 100_cny: 1.27% | 5_usd: 0.35%,Thành công
+1.jpg,100,100.0,100: 100.00% | 1: 0.00% | 5: 0.00%,Thành công
+10_usd_10.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+10_usd_11.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+10_usd_3.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+10_usd_4.jpg,10 dollar,99.91,10 dollar: 99.91% | 50 dollar: 0.09% | 100 dollar: 0.00%,Thành công
+10_usd_5.jpg,10 dollar,99.99,10 dollar: 99.99% | 50 dollar: 0.01% | 100 dollar: 0.00%,Thành công
+10_usd_6.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+10_usd_8.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+10_usd_9.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+2.jpg,100,100.0,100: 100.00% | 20: 0.00% | 5: 0.00%,Thành công
+3.jpg,100,100.0,100: 100.00% | 200000: 0.00% | 050000: 0.00%,Thành công
+4.jpg,100,100.0,100: 100.00% | 200000: 0.00% | 20: 0.00%,Thành công
+5.jpg,100,100.0,100: 100.00% | 200000: 0.00% | 20: 0.00%,Thành công
+50-1.jpg,50,86.01,50: 86.01% | 10: 12.83% | 1: 0.92%,Thành công
+50-10.jpg,50,98.41,50: 98.41% | 1: 1.39% | 10: 0.19%,Thành công
+50-11.jpg,50,91.06,50: 91.06% | 1: 5.79% | 10: 2.94%,Thành công
+50-12.jpg,50,94.98,50: 94.98% | 1: 3.23% | 10: 1.61%,Thành công
+50-13.jpg,50,31.76,50: 31.76% | 10: 28.47% | 020000: 16.06%,Thành công
+50-14.jpg,50,95.54,50: 95.54% | 1: 3.42% | 10: 1.03%,Thành công
+50-15.jpg,50,93.39,50: 93.39% | 1: 4.97% | 10: 1.63%,Thành công
+50-16.jpg,50,87.31,50: 87.31% | 1: 11.10% | 10: 1.53%,Thành công
+50-17.jpg,50,85.35,50: 85.35% | 1: 12.92% | 10: 1.64%,Thành công
+50-18.jpg,50,97.53,50: 97.53% | 1: 2.06% | 10: 0.39%,Thành công
+50-19.jpg,50,98.01,50: 98.01% | 1: 1.57% | 10: 0.40%,Thành công
+50-2.jpg,50,88.96,50: 88.96% | 10: 10.00% | 1: 0.99%,Thành công
+50-4.jpg,50,83.83,50: 83.83% | 10: 15.84% | 020000: 0.22%,Thành công
+50-5.jpg,10,74.96,10: 74.96% | 50: 23.38% | 020000: 0.85%,Thành công
+50-6.jpg,50,96.06,50: 96.06% | 1: 2.44% | 10: 1.50%,Thành công
+50-7.jpg,50,91.36,50: 91.36% | 10: 5.64% | 1: 2.99%,Thành công
+50-8.jpg,50,94.84,50: 94.84% | 1: 3.13% | 10: 2.03%,Thành công
+50-9.jpg,50,98.21,50: 98.21% | 1: 1.48% | 10: 0.30%,Thành công
+6.jpg,100,100.0,100: 100.00% | 200000: 0.00% | 20: 0.00%,Thành công
+7.jpg,100,100.0,100: 100.00% | 200000: 0.00% | 050000: 0.00%,Thành công
+8.jpg,100,100.0,100: 100.00% | 5: 0.00% | 1: 0.00%,Thành công
+9.jpg,100,99.99,100: 99.99% | 200000: 0.01% | 050000: 0.00%,Thành công
+a.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+b (2).jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công
+b.jpg,10 dollar,100.0,10 dollar: 100.00% | 100 dollar: 0.00% | 50 dollar: 0.00%,Thành công
+demo1.jpg,10 dollar,99.99,10 dollar: 99.99% | 100 dollar: 0.01% | 50 dollar: 0.00%,Thành công
+v.jpg,10 dollar,100.0,10 dollar: 100.00% | 50 dollar: 0.00% | 100 dollar: 0.00%,Thành công

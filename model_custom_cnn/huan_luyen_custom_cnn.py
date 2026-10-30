@@ -56,7 +56,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BASE_DIR = SCRIPT_DIR.parent
 
 # Thư mục dữ liệu dùng chung với MobileNetV2
-DATASET_DIR = BASE_DIR / "asset_demo_02_anh_cai_thien"
+DATASET_DIR = BASE_DIR / "asset_finally"
 
 # Kích thước ảnh đầu vào
 IMAGE_SIZE = (224, 224)
