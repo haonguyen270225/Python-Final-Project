@@ -1,4 +1,4 @@
-# # 1. Chạy trogn PowerShell : cd D:\Python-Final-Project
+# # 1. Chạy trong PowerShell : cd D:\Python-Final-Project
 # # 2 . Chạy trong PowerShell : .\.venv\Scripts\python.exe .\model_YoLo\du_doan_anh_moi_yolo.py
 
 from pathlib import Path
@@ -13,21 +13,20 @@ from ultralytics import YOLO
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Mô hình tốt nhất sau khi huấn luyện
+# Mô hình tốt nhất sau khi huấn luyện (Đã sửa bỏ thư mục "runs" dư thừa)
 MODEL_PATH = (
     BASE_DIR
-    / "runs"
-    / "classify"
+    / "ket_qua_yolo"
     / "currency_yolo11n_cls"
     / "weights"
     / "best.pt"
 )
 
 # Thư mục chứa ảnh cần dự đoán
-IMAGE_DIR = BASE_DIR / "anh_kiem_tra"
+IMAGE_DIR = BASE_DIR / "anh_kiem_tra/Bo_test_1"
 
 # Thư mục lưu ảnh kết quả
-OUTPUT_DIR = BASE_DIR / "ket_qua_YoLo"
+OUTPUT_DIR = BASE_DIR / "model_YoLo"
 
 # File CSV lưu kết quả dự đoán
 CSV_PATH = (
