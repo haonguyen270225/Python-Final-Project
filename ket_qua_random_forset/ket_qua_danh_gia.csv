@@ -1,0 +1,8 @@
+﻿metric,score,percentage
+Accuracy,1.000000,100.00%
+Precision_Macro,1.000000,100.00%
+Recall_Macro,1.000000,100.00%
+F1_Macro,1.000000,100.00%
+Precision_Weighted,1.000000,100.00%
+Recall_Weighted,1.000000,100.00%
+F1_Weighted,1.000000,100.00%

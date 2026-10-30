@@ -210,7 +210,7 @@ import numpy as np
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Thư mục chứa ảnh cần dự đoán
-IMAGE_DIR = BASE_DIR / "anh_kiem_tra"
+IMAGE_DIR = BASE_DIR / "anh_kiem_tra/Bo_test_3" 
 
 # Thư mục chứa mô hình đã huấn luyện
 RESULT_DIR = BASE_DIR / "ket_qua_random_forset"
@@ -222,7 +222,7 @@ MODEL_DIR = Path(__file__).resolve().parent
 MODEL_PATH = RESULT_DIR / "rf_currency_classifier.pkl"
 
 # Đường dẫn file CSV kết quả dự đoán
-CSV_PATH = MODEL_DIR / "ket_qua_du_doan_Random_Forest.csv"
+CSV_PATH = MODEL_DIR / "ket_qua_du_doan_Random_Forest_03.csv"
 
 
 # =========================================================
