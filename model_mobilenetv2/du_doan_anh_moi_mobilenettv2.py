@@ -147,7 +147,7 @@ CLASS_NAMES_PATH = (
 )
 
 # Thư mục chứa ảnh cần kiểm tra
-IMAGE_DIR = PROJECT_DIR / "anh_kiem_tra"
+IMAGE_DIR = PROJECT_DIR / "anh_kiem_tra/Bo_test_1"
 
 # File lưu bảng kết quả dự đoán
 CSV_PATH = BASE_DIR / "ket_qua_du_doan.csv"

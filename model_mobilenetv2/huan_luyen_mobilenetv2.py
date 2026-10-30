@@ -47,7 +47,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 # Thư mục dữ liệu nằm bên ngoài model_mobilenetv2
-DATA_DIR = BASE_DIR.parent / "asset_demo_02_anh_chuan_hoa"
+DATA_DIR = BASE_DIR.parent / "asset_finally"
 
 # Thư mục lưu kết quả nằm bên ngoài model_mobilenetv2
 OUTPUT_DIR = BASE_DIR.parent / "ket_qua_mobilenetv2"
