@@ -1,0 +1,8 @@
+﻿metric,score,percentage
+Accuracy,0.967156,96.72%
+Precision_Macro,0.954349,95.43%
+Recall_Macro,0.954216,95.42%
+F1_Macro,0.953586,95.36%
+Precision_Weighted,0.967837,96.78%
+Recall_Weighted,0.967156,96.72%
+F1_Weighted,0.967034,96.70%
