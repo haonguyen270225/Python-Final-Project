@@ -1,0 +1,18 @@
+﻿File,Số dòng,Số cột,Ô thiếu,Dòng trùng,Số cột số,Số cột dạng chữ
+CustomCNN/model_comparison.csv,3,8,0,0,7,1
+CustomCNN/predicted_label_statistics.csv,57,3,0,0,1,2
+MobileNetV2/bang_so_sanh_3_mo_hinh.csv,3,8,0,0,7,1
+MobileNetV2/thong_ke_nhan_du_doan.csv,53,3,0,0,1,2
+Random Forest/bang_so_sanh_3_mo_hinh.csv,3,8,0,0,7,1
+Random Forest/thong_ke_loai_tien.csv,9,3,0,0,1,2
+Random Forest/thong_ke_loai_tien_menh_gia.csv,57,3,0,0,1,2
+Random Forest/thong_ke_menh_gia.csv,45,3,0,0,2,1
+ResNet/bang_so_sanh_cac_file.csv,3,9,0,0,8,1
+ResNet/du_lieu_tong_hop.csv,132,8,0,0,2,6
+ResNet/thong_ke_loai_tien.csv,9,3,0,0,1,2
+ResNet/thong_ke_loai_tien_menh_gia.csv,62,3,0,0,1,2
+ResNet/thong_ke_menh_gia.csv,61,3,0,0,1,2
+YOLO/bang_so_sanh_3_mo_hinh.csv,3,8,0,0,7,1
+YOLO/thong_ke_loai_tien.csv,9,3,0,0,1,2
+YOLO/thong_ke_loai_tien_menh_gia.csv,61,3,0,0,1,2
+YOLO/thong_ke_menh_gia.csv,48,3,0,0,2,1

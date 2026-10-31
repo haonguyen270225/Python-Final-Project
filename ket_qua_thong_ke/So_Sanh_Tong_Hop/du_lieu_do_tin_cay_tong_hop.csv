@@ -1,0 +1,322 @@
+﻿Mô hình,Trường độ tin cậy,Giá trị
+CustomCNN,Average Confidence (%),98.59
+CustomCNN,Average Confidence (%),86.04
+CustomCNN,Average Confidence (%),73.76
+CustomCNN,Max Confidence (%),100.0
+CustomCNN,Max Confidence (%),100.0
+CustomCNN,Max Confidence (%),100.0
+CustomCNN,Min Confidence (%),81.16
+CustomCNN,Min Confidence (%),46.3
+CustomCNN,Min Confidence (%),27.13
+MobileNetV2,Độ tin cậy trung bình (%),98.21
+MobileNetV2,Độ tin cậy trung bình (%),92.4
+MobileNetV2,Độ tin cậy trung bình (%),77.37
+MobileNetV2,Độ tin cậy cao nhất (%),100.0
+MobileNetV2,Độ tin cậy cao nhất (%),100.0
+MobileNetV2,Độ tin cậy cao nhất (%),99.99
+MobileNetV2,Độ tin cậy thấp nhất (%),71.25
+MobileNetV2,Độ tin cậy thấp nhất (%),34.44
+MobileNetV2,Độ tin cậy thấp nhất (%),37.28
+Random Forest,Độ tin cậy trung bình (%),72.09
+Random Forest,Độ tin cậy trung bình (%),48.36
+Random Forest,Độ tin cậy trung bình (%),32.73
+Random Forest,Độ tin cậy cao nhất (%),100.0
+Random Forest,Độ tin cậy cao nhất (%),100.0
+Random Forest,Độ tin cậy cao nhất (%),99.0
+Random Forest,Độ tin cậy thấp nhất (%),13.0
+Random Forest,Độ tin cậy thấp nhất (%),10.0
+Random Forest,Độ tin cậy thấp nhất (%),9.0
+ResNet,Độ tin cậy loại tiền TB (%),99.93
+ResNet,Độ tin cậy loại tiền TB (%),98.5
+ResNet,Độ tin cậy loại tiền TB (%),93.26
+ResNet,Độ tin cậy loại tiền cao nhất (%),100.0
+ResNet,Độ tin cậy loại tiền cao nhất (%),100.0
+ResNet,Độ tin cậy loại tiền cao nhất (%),100.0
+ResNet,Độ tin cậy loại tiền thấp nhất (%),99.39
+ResNet,Độ tin cậy loại tiền thấp nhất (%),53.58
+ResNet,Độ tin cậy loại tiền thấp nhất (%),43.36
+ResNet,Độ tin cậy mệnh giá TB (%),99.43
+ResNet,Độ tin cậy mệnh giá TB (%),93.9
+ResNet,Độ tin cậy mệnh giá TB (%),78.58
+ResNet,Độ tin cậy mệnh giá cao nhất (%),100.0
+ResNet,Độ tin cậy mệnh giá cao nhất (%),100.0
+ResNet,Độ tin cậy mệnh giá cao nhất (%),99.99
+ResNet,Độ tin cậy mệnh giá thấp nhất (%),86.52
+ResNet,Độ tin cậy mệnh giá thấp nhất (%),22.69
+ResNet,Độ tin cậy mệnh giá thấp nhất (%),15.99
+ResNet,Số ảnh có đủ 2 độ tin cậy,44.0
+ResNet,Số ảnh có đủ 2 độ tin cậy,44.0
+ResNet,Số ảnh có đủ 2 độ tin cậy,44.0
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.84
+ResNet,do_tin_cay_loai_tien,99.9
+ResNet,do_tin_cay_loai_tien,99.96
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.89
+ResNet,do_tin_cay_loai_tien,99.92
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.92
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.39
+ResNet,do_tin_cay_loai_tien,99.96
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.97
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.8
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.89
+ResNet,do_tin_cay_loai_tien,99.93
+ResNet,do_tin_cay_loai_tien,99.8
+ResNet,do_tin_cay_loai_tien,99.95
+ResNet,do_tin_cay_loai_tien,99.7
+ResNet,do_tin_cay_loai_tien,99.92
+ResNet,do_tin_cay_loai_tien,99.65
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.92
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.91
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.93
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.73
+ResNet,do_tin_cay_loai_tien,99.97
+ResNet,do_tin_cay_loai_tien,99.8
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.86
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.81
+ResNet,do_tin_cay_loai_tien,99.49
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,88.23
+ResNet,do_tin_cay_loai_tien,99.93
+ResNet,do_tin_cay_loai_tien,99.83
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.93
+ResNet,do_tin_cay_loai_tien,53.58
+ResNet,do_tin_cay_loai_tien,97.4
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.85
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.8
+ResNet,do_tin_cay_loai_tien,99.73
+ResNet,do_tin_cay_loai_tien,99.88
+ResNet,do_tin_cay_loai_tien,99.95
+ResNet,do_tin_cay_loai_tien,99.84
+ResNet,do_tin_cay_loai_tien,99.96
+ResNet,do_tin_cay_loai_tien,99.12
+ResNet,do_tin_cay_loai_tien,99.97
+ResNet,do_tin_cay_loai_tien,99.95
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.95
+ResNet,do_tin_cay_loai_tien,99.97
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,98.92
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.83
+ResNet,do_tin_cay_loai_tien,99.52
+ResNet,do_tin_cay_loai_tien,99.03
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.73
+ResNet,do_tin_cay_loai_tien,99.98
+ResNet,do_tin_cay_loai_tien,88.15
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.96
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.08
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.94
+ResNet,do_tin_cay_loai_tien,99.48
+ResNet,do_tin_cay_loai_tien,99.97
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,97.57
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,99.43
+ResNet,do_tin_cay_loai_tien,75.52
+ResNet,do_tin_cay_loai_tien,91.23
+ResNet,do_tin_cay_loai_tien,97.22
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,94.09
+ResNet,do_tin_cay_loai_tien,43.36
+ResNet,do_tin_cay_loai_tien,99.67
+ResNet,do_tin_cay_loai_tien,96.13
+ResNet,do_tin_cay_loai_tien,100.0
+ResNet,do_tin_cay_loai_tien,80.21
+ResNet,do_tin_cay_loai_tien,93.36
+ResNet,do_tin_cay_loai_tien,98.92
+ResNet,do_tin_cay_loai_tien,68.34
+ResNet,do_tin_cay_loai_tien,48.65
+ResNet,do_tin_cay_loai_tien,99.67
+ResNet,do_tin_cay_loai_tien,99.99
+ResNet,do_tin_cay_loai_tien,99.17
+ResNet,do_tin_cay_loai_tien,87.58
+ResNet,do_tin_cay_loai_tien,95.56
+ResNet,do_tin_cay_loai_tien,67.17
+ResNet,do_tin_cay_loai_tien,98.48
+ResNet,do_tin_cay_loai_tien,98.05
+ResNet,do_tin_cay_loai_tien,90.52
+ResNet,do_tin_cay_loai_tien,99.86
+ResNet,do_tin_cay_loai_tien,99.01
+ResNet,do_tin_cay_menh_gia,99.9
+ResNet,do_tin_cay_menh_gia,99.92
+ResNet,do_tin_cay_menh_gia,99.92
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.96
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.93
+ResNet,do_tin_cay_menh_gia,99.91
+ResNet,do_tin_cay_menh_gia,99.96
+ResNet,do_tin_cay_menh_gia,99.75
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,86.52
+ResNet,do_tin_cay_menh_gia,99.65
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,99.86
+ResNet,do_tin_cay_menh_gia,99.89
+ResNet,do_tin_cay_menh_gia,99.86
+ResNet,do_tin_cay_menh_gia,99.65
+ResNet,do_tin_cay_menh_gia,99.76
+ResNet,do_tin_cay_menh_gia,99.51
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,91.94
+ResNet,do_tin_cay_menh_gia,99.64
+ResNet,do_tin_cay_menh_gia,99.86
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.96
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,99.93
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,99.93
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,99.96
+ResNet,do_tin_cay_menh_gia,99.94
+ResNet,do_tin_cay_menh_gia,99.56
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,99.87
+ResNet,do_tin_cay_menh_gia,99.94
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.89
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.5
+ResNet,do_tin_cay_menh_gia,97.04
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.82
+ResNet,do_tin_cay_menh_gia,37.11
+ResNet,do_tin_cay_menh_gia,93.33
+ResNet,do_tin_cay_menh_gia,99.91
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,99.91
+ResNet,do_tin_cay_menh_gia,22.69
+ResNet,do_tin_cay_menh_gia,41.3
+ResNet,do_tin_cay_menh_gia,99.28
+ResNet,do_tin_cay_menh_gia,99.95
+ResNet,do_tin_cay_menh_gia,99.88
+ResNet,do_tin_cay_menh_gia,99.94
+ResNet,do_tin_cay_menh_gia,99.62
+ResNet,do_tin_cay_menh_gia,99.92
+ResNet,do_tin_cay_menh_gia,99.88
+ResNet,do_tin_cay_menh_gia,99.7
+ResNet,do_tin_cay_menh_gia,61.89
+ResNet,do_tin_cay_menh_gia,98.8
+ResNet,do_tin_cay_menh_gia,99.53
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,99.95
+ResNet,do_tin_cay_menh_gia,93.76
+ResNet,do_tin_cay_menh_gia,99.47
+ResNet,do_tin_cay_menh_gia,99.93
+ResNet,do_tin_cay_menh_gia,99.9
+ResNet,do_tin_cay_menh_gia,99.33
+ResNet,do_tin_cay_menh_gia,99.57
+ResNet,do_tin_cay_menh_gia,99.91
+ResNet,do_tin_cay_menh_gia,100.0
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,92.01
+ResNet,do_tin_cay_menh_gia,99.45
+ResNet,do_tin_cay_menh_gia,97.84
+ResNet,do_tin_cay_menh_gia,94.31
+ResNet,do_tin_cay_menh_gia,99.93
+ResNet,do_tin_cay_menh_gia,94.6
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,51.81
+ResNet,do_tin_cay_menh_gia,99.16
+ResNet,do_tin_cay_menh_gia,95.26
+ResNet,do_tin_cay_menh_gia,99.96
+ResNet,do_tin_cay_menh_gia,90.91
+ResNet,do_tin_cay_menh_gia,47.44
+ResNet,do_tin_cay_menh_gia,90.72
+ResNet,do_tin_cay_menh_gia,99.73
+ResNet,do_tin_cay_menh_gia,97.05
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,99.97
+ResNet,do_tin_cay_menh_gia,91.21
+ResNet,do_tin_cay_menh_gia,56.43
+ResNet,do_tin_cay_menh_gia,40.85
+ResNet,do_tin_cay_menh_gia,93.91
+ResNet,do_tin_cay_menh_gia,51.59
+ResNet,do_tin_cay_menh_gia,96.48
+ResNet,do_tin_cay_menh_gia,98.95
+ResNet,do_tin_cay_menh_gia,76.14
+ResNet,do_tin_cay_menh_gia,84.49
+ResNet,do_tin_cay_menh_gia,99.88
+ResNet,do_tin_cay_menh_gia,80.72
+ResNet,do_tin_cay_menh_gia,99.99
+ResNet,do_tin_cay_menh_gia,55.17
+ResNet,do_tin_cay_menh_gia,35.18
+ResNet,do_tin_cay_menh_gia,44.75
+ResNet,do_tin_cay_menh_gia,16.32
+ResNet,do_tin_cay_menh_gia,15.99
+ResNet,do_tin_cay_menh_gia,85.04
+ResNet,do_tin_cay_menh_gia,99.98
+ResNet,do_tin_cay_menh_gia,98.93
+ResNet,do_tin_cay_menh_gia,48.11
+ResNet,do_tin_cay_menh_gia,36.89
+ResNet,do_tin_cay_menh_gia,64.42
+ResNet,do_tin_cay_menh_gia,96.63
+ResNet,do_tin_cay_menh_gia,96.18
+ResNet,do_tin_cay_menh_gia,53.98
+ResNet,do_tin_cay_menh_gia,96.31
+ResNet,do_tin_cay_menh_gia,84.35
+YOLO,Độ tin cậy trung bình (%),99.92
+YOLO,Độ tin cậy trung bình (%),94.92
+YOLO,Độ tin cậy trung bình (%),87.02
+YOLO,Độ tin cậy cao nhất (%),100.0
+YOLO,Độ tin cậy cao nhất (%),100.0
+YOLO,Độ tin cậy cao nhất (%),100.0
+YOLO,Độ tin cậy thấp nhất (%),97.22
+YOLO,Độ tin cậy thấp nhất (%),39.7
+YOLO,Độ tin cậy thấp nhất (%),32.69
