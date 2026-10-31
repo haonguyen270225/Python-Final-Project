@@ -1,3 +1,6 @@
 /asset_demo_02_anh_chuan_hoa/
 /asset_demo_02_anh_cai_thien/
 ket_qua_random_forset/*.pkl
+# Không đưa 2 file model ResNet lên Git
+ket_qua_resnet/last_model.pth
+ket_qua_resnet/best_model.pth
