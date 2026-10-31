@@ -1,0 +1,212 @@
+BÁO CÁO THỐNG KÊ KẾT QUẢ DỰ ĐOÁN RESNET
+============================================================
+
+Tổng số file CSV: 3
+Tổng số ảnh: 132
+
+Lưu ý: Độ tin cậy là điểm confidence do mô hình dự đoán cung cấp, không phải Accuracy thực tế.
+Chưa có nhãn thực tế nên chưa thể tính Accuracy, Precision, Recall và F1-score.
+
+============================================================
+FILE CSV: ket_qua_du_doan_restnet_test_01
+============================================================
+Tổng số ảnh: 44
+
+--- ĐỘ TIN CẬY LOẠI TIỀN ---
+Trung bình: 99.93%
+Cao nhất: 100.00%
+Thấp nhất: 99.39%
+
+--- ĐỘ TIN CẬY MỆNH GIÁ ---
+Trung bình: 99.43%
+Cao nhất: 100.00%
+Thấp nhất: 86.52%
+
+--- SỐ LƯỢNG THEO LOẠI TIỀN ---
+loai_tien_du_doan
+VND    18
+USD    14
+CNY    12
+
+--- SỐ LƯỢNG THEO MỆNH GIÁ ---
+menh_gia_du_doan
+CNY_20        2
+USD_10        2
+USD_1         2
+USD_2         2
+USD_20        2
+CNY_10        2
+CNY_5         2
+USD_5         2
+VND_50000     2
+VND_20000     2
+CNY_50        2
+USD_50        2
+CNY_1         2
+VND_100000    2
+VND_200000    2
+VND_500000    2
+VND_2000      2
+VND_10000     2
+VND_1000      2
+VND_5000      2
+USD_100       2
+CNY_100       2
+
+--- LOẠI TIỀN - MỆNH GIÁ ---
+Loại tiền - Mệnh giá
+CNY - CNY_20        2
+USD - USD_10        2
+USD - USD_1         2
+USD - USD_2         2
+USD - USD_20        2
+CNY - CNY_10        2
+CNY - CNY_5         2
+USD - USD_5         2
+VND - VND_50000     2
+VND - VND_20000     2
+CNY - CNY_50        2
+USD - USD_50        2
+CNY - CNY_1         2
+VND - VND_100000    2
+VND - VND_200000    2
+VND - VND_500000    2
+VND - VND_2000      2
+VND - VND_10000     2
+VND - VND_1000      2
+VND - VND_5000      2
+USD - USD_100       2
+CNY - CNY_100       2
+
+============================================================
+FILE CSV: ket_qua_du_doan_restnet_test_02
+============================================================
+Tổng số ảnh: 44
+
+--- ĐỘ TIN CẬY LOẠI TIỀN ---
+Trung bình: 98.50%
+Cao nhất: 100.00%
+Thấp nhất: 53.58%
+
+--- ĐỘ TIN CẬY MỆNH GIÁ ---
+Trung bình: 93.89%
+Cao nhất: 100.00%
+Thấp nhất: 22.69%
+
+--- SỐ LƯỢNG THEO LOẠI TIỀN ---
+loai_tien_du_doan
+VND    18
+USD    14
+CNY    12
+
+--- SỐ LƯỢNG THEO MỆNH GIÁ ---
+menh_gia_du_doan
+USD_20        4
+USD_5         3
+VND_20000     3
+VND_2000      2
+CNY_10        2
+CNY_100       2
+CNY_50        2
+USD_10        2
+CNY_20        2
+VND_200000    2
+VND_500000    2
+VND_50000     2
+VND_10000     2
+CNY_5         2
+USD_1         2
+USD_2         2
+VND_1000      2
+CNY_1         2
+VND_100000    2
+VND_5000      1
+USD_50        1
+
+--- LOẠI TIỀN - MỆNH GIÁ ---
+Loại tiền - Mệnh giá
+USD - USD_20        4
+USD - USD_5         3
+VND - VND_20000     3
+VND - VND_2000      2
+CNY - CNY_10        2
+CNY - CNY_100       2
+CNY - CNY_50        2
+USD - USD_10        2
+CNY - CNY_20        2
+VND - VND_200000    2
+VND - VND_500000    2
+VND - VND_50000     2
+VND - VND_10000     2
+CNY - CNY_5         2
+USD - USD_1         2
+USD - USD_2         2
+VND - VND_1000      2
+CNY - CNY_1         2
+VND - VND_100000    2
+VND - VND_5000      1
+USD - USD_50        1
+
+============================================================
+FILE CSV: ket_qua_du_doan_restnet_test_03
+============================================================
+Tổng số ảnh: 44
+
+--- ĐỘ TIN CẬY LOẠI TIỀN ---
+Trung bình: 93.26%
+Cao nhất: 100.00%
+Thấp nhất: 43.36%
+
+--- ĐỘ TIN CẬY MỆNH GIÁ ---
+Trung bình: 78.58%
+Cao nhất: 99.99%
+Thấp nhất: 15.99%
+
+--- SỐ LƯỢNG THEO LOẠI TIỀN ---
+loai_tien_du_doan
+VND    16
+USD    15
+CNY    13
+
+--- SỐ LƯỢNG THEO MỆNH GIÁ ---
+menh_gia_du_doan
+USD_20        13
+VND_2000       3
+VND_5000       3
+CNY_1          2
+VND_200000     2
+CNY_50         2
+VND_100000     2
+CNY_100        2
+CNY_5          2
+CNY_20         2
+USD_1          2
+CNY_10         2
+VND_1000       2
+VND_500000     1
+VND_10000      1
+VND_50000      1
+VND_20000      1
+USD_2          1
+
+--- LOẠI TIỀN - MỆNH GIÁ ---
+Loại tiền - Mệnh giá
+USD - USD_20        12
+VND - VND_2000       3
+VND - VND_5000       3
+CNY - CNY_1          2
+VND - VND_200000     2
+CNY - CNY_50         2
+VND - VND_100000     2
+CNY - CNY_100        2
+CNY - CNY_5          2
+CNY - CNY_20         2
+USD - USD_1          2
+CNY - CNY_10         2
+VND - VND_1000       2
+VND - VND_500000     1
+VND - VND_10000      1
+VND - VND_50000      1
+VND - VND_20000      1
+CNY - USD_20         1
+USD - USD_2          1

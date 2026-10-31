@@ -1,0 +1,4 @@
+﻿File CSV,Tổng số ảnh,Độ tin cậy loại tiền TB (%),Độ tin cậy loại tiền cao nhất (%),Độ tin cậy loại tiền thấp nhất (%),Độ tin cậy mệnh giá TB (%),Độ tin cậy mệnh giá cao nhất (%),Độ tin cậy mệnh giá thấp nhất (%),Số ảnh có đủ 2 độ tin cậy
+ket_qua_du_doan_restnet_test_01,44,99.93,100.0,99.39,99.43,100.0,86.52,44
+ket_qua_du_doan_restnet_test_02,44,98.5,100.0,53.58,93.9,100.0,22.69,44
+ket_qua_du_doan_restnet_test_03,44,93.26,100.0,43.36,78.58,99.99,15.99,44
